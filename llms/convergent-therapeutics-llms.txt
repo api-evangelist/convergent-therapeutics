@@ -1,0 +1,41 @@
+# Convergent Therapeutics
+
+> Convergent Therapeutics, Inc. is a clinical-stage biotechnology company in Cambridge, Massachusetts, developing next-generation targeted radiotherapies for cancer. Founded in 2020 by Philip Kantoff, it builds alpha radioantibodies that pair a humanized monoclonal antibody against prostate-specific membrane antigen (PSMA) with the alpha emitter actinium-225. Its lead candidate CONV01-alpha (rosopatamab tetraxetan) is in the Phase 2 CONVERGE-01 trial in metastatic castration-resistant prostate cancer, including patients previously treated with Lu-177 PSMA radioligand therapy. Convergent is a therapeutics developer and publishes no public developer API, SDK, or machine-readable API contract.
+
+## Science and pipeline
+
+- [Pipeline](https://convergentrx.com/pipeline/): CONV01-alpha and the wider development programs.
+- [Technology](https://convergentrx.com/technology/): The alpha radioantibody platform pairing PSMA-targeting antibodies with actinium-225.
+- [Prostate Cancer](https://convergentrx.com/prostate-cancer/): The unmet need in metastatic castration-resistant prostate cancer.
+- [Scientific Publications](https://convergentrx.com/publications/): Peer-reviewed publications and presented data.
+
+## Company
+
+- [About Us / Team](https://convergentrx.com/team/): Leadership, founders, and board.
+- [Contact](mailto:info@convergentrx.com): General company contact address.
+- [Convergent Therapeutics on LinkedIn](https://www.linkedin.com/company/convergent-therapeutics)
+
+## News
+
+- [News & Media](https://convergentrx.com/press/): Press releases and media coverage.
+- [News RSS](https://convergentrx.com/feed/): Site feed for the news and media section.
+
+## Legal
+
+- [Privacy Policy](https://convergentrx.com/privacy-policy/)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/convergent-therapeutics/refs/heads/main/apis.yml): APIs.json 0.20 index for Convergent Therapeutics.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/convergent-therapeutics/refs/heads/main/security/convergent-therapeutics-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for convergentrx.com.
+- [Well-known + contract discovery record](https://raw.githubusercontent.com/api-evangelist/convergent-therapeutics/refs/heads/main/well-known/convergent-therapeutics-well-known.yml): Result of the /.well-known/, OpenAPI, GraphQL, MCP and A2A discovery sweep (no machine-readable contract found).
+
+## Optional
+
+- [Convergent Therapeutics stock on Forge Global](https://forgeglobal.com/convergent-therapeutics_stock/): Secondary-market listing for Convergent Therapeutics shares (third party, not operated by Convergent Therapeutics).
+
+<!--
+generated: 2026-08-04
+method: generated
+source: apis.yml + https://convergentrx.com/ (no /llms.txt published; https://convergentrx.com/llms.txt returned 404)
+-->

@@ -1,0 +1,85 @@
+generated: '2026-08-04'
+method: probed
+source: live GET of /.well-known/* and common spec paths on every Convergent Therapeutics host
+note: >-
+  No /.well-known/ document was found on any Convergent Therapeutics host. convergentrx.com
+  is a WordPress marketing site (WP Engine hosted) that returns an HTML 404 for every
+  /.well-known/* path, so no raw file was saved and no WellKnown/SecurityTxt pointer is
+  wired in apis.yml. Convergent Therapeutics is a clinical-stage biotechnology company
+  and publishes no developer portal, API documentation, SDK, or machine-readable API
+  contract. Recorded here so later enrichment rounds do not re-probe blindly.
+hosts:
+- host: https://convergentrx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://www.convergentrx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+x-contract-discovery:
+  fetched: '2026-08-04'
+  result: no-machine-readable-api-contract
+  spec_paths_probed:
+  - {path: /openapi.json, status: 404}
+  - {path: /openapi.yaml, status: 404}
+  - {path: /swagger.json, status: 404}
+  - {path: /api-docs, status: 404}
+  - {path: /docs, status: 404}
+  - {path: /redoc, status: 404}
+  - {path: /llms.txt, status: 404}
+  graphql:
+    path: /graphql
+    status: 404
+    result: no GraphQL surface
+  mcp:
+    result: no hosted MCP server found in provider docs, npm, or MCP registries
+  a2a:
+    result: no agent card at /.well-known/agent-card.json or /.well-known/agent.json on any host
+  incidental_surface:
+    path: /wp-json/
+    status: 200
+    kind: WordPress REST API (wp/v2 + Yoast, Wordfence, Redirection, WP Engine plugin namespaces)
+    routes: 213
+    registered: false
+    reason: >-
+      This is the default WordPress core/plugin REST API exposed by the marketing CMS, not a
+      product API Convergent Therapeutics publishes, documents, or supports. It is recorded as
+      an observation only and is deliberately NOT wired as an apis[] entry or an OpenAPI
+      pointer — registering incidental CMS plumbing as a company API would misrepresent the
+      provider and inflate its rating.
+  subdomains_probed:
+  - api.convergentrx.com
+  - developer.convergentrx.com
+  - docs.convergentrx.com
+  - status.convergentrx.com
+  - trust.convergentrx.com
+  - app.convergentrx.com
+  - portal.convergentrx.com
+  - ir.convergentrx.com
+  - investors.convergentrx.com
+  subdomain_result: no DNS resolution / connection failure on all nine
+  registries_probed:
+  - {registry: npm, query: convergentrx, results: 0}
+  - {registry: npm, query: convergent-therapeutics, first_party_results: 0}
+  - {registry: pypi, package: convergentrx, status: 404}
+  - {registry: pypi, package: convergent-therapeutics, status: 404}
+  - {registry: github, org: convergentrx, status: 404}

@@ -1,17 +1,35 @@
 aid: convergent-therapeutics
 name: Convergent Therapeutics
-description: 'Convergent Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Convergent Therapeutics, Inc. is a clinical-stage biotechnology company
+  based in Cambridge, Massachusetts, developing next-generation targeted radiotherapies
+  for cancer. Founded in 2020 by Philip Kantoff, the company builds alpha radioantibodies
+  that pair a humanized monoclonal antibody against prostate-specific membrane antigen
+  (PSMA) with the alpha emitter actinium-225, delivering short-range, high-energy alpha
+  radiation to tumor cells. Its lead candidate, CONV01-alpha (rosopatamab tetraxetan),
+  is in the Phase 2 CONVERGE-01 trial in metastatic castration-resistant prostate cancer,
+  including patients previously treated with Lu-177 PSMA radioligand therapy, with a
+  pivotal Phase 3 planned. Convergent announced a $90 million Series A financing in 2023.
+  The company publishes a corporate website covering its pipeline, technology, scientific
+  publications and press, but operates no public developer program, API, SDK, or
+  machine-readable API contract.'
+image: https://convergentrx.com/wp-content/uploads/2024/10/Convergent-Therapeutics-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/convergent-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profile
+x-tier-reason: enriched-no-api-surface
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Radiopharmaceuticals
+- Clinical Trials
+- Life Sciences
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/convergent-therapeutics-domain-security.yml
 - type: Website
+  url: https://convergentrx.com/
+- type: About
+  url: https://convergentrx.com/team/
+- type: Team
+  url: https://convergentrx.com/team/
+- type: Products
+  url: https://convergentrx.com/pipeline/
+- type: Solutions
+  url: https://convergentrx.com/technology/
+- type: Research
+  url: https://convergentrx.com/publications/
+- type: News
+  url: https://convergentrx.com/press/
+- type: PressReleases
+  url: https://convergentrx.com/press/
+- type: Blog
+  url: https://convergentrx.com/press/
+- type: BlogFeeds
+  url: https://convergentrx.com/feed/
+- type: PrivacyPolicy
+  url: https://convergentrx.com/privacy-policy/
+- type: Contact
+  url: mailto:info@convergentrx.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/convergent-therapeutics
+- type: Marketplace
   url: https://forgeglobal.com/convergent-therapeutics_stock/
+- type: LLMsTxt
+  url: llms/convergent-therapeutics-llms.txt
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
