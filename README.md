@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Convergent Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/convergent-therapeutics_stock/
+Convergent Therapeutics, Inc. is a clinical-stage biotechnology company based in Cambridge, Massachusetts, developing next-generation targeted radiotherapies for cancer. Founded in 2020 by Philip Kantoff, the company builds alpha radioantibodies that pair a humanized monoclonal antibody against prostate-specific membrane antigen (PSMA) with the alpha emitter actinium-225, delivering short-range, high-energy alpha radiation to tumor cells. Its lead candidate, CONV01-alpha (rosopatamab tetraxetan), is in the Phase 2 CONVERGE-01 trial in metastatic castration-resistant prostate cancer, including patients previously treated with Lu-177 PSMA radioligand therapy, with a pivotal Phase 3 planned. Convergent announced a $90 million Series A financing in 2023. The company publishes a corporate website covering its pipeline, technology, scientific publications and press, but operates no public developer program, API, SDK, or machine-readable API contract.
+
+**Areas:** Company · Biotechnology · Pharmaceuticals · Oncology · Radiopharmaceuticals · Clinical Trials · Life Sciences · Healthcare
+
+## Convergent Therapeutics on APIs.io
+
+Everything profiled for Convergent Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/convergent-therapeutics/](https://apis.io/providers/convergent-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Convergent Therapeutics Domain Security](https://apis.io/security/convergent-therapeutics/convergent-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://convergentrx.com/)
+- [Blog](https://convergentrx.com/press/)
+- [Privacy policy](https://convergentrx.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 7.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/convergent-therapeutics/](https://apis.io/providers/convergent-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Convergent Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/convergent-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
